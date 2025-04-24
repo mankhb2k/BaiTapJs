@@ -1,0 +1,12 @@
+{
+    "terminal.integrated.suggest.suggestOnTriggerCharacters": false,
+    "editor.inlineSuggest.suppressSuggestions": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "terminal.integrated.suggest.inlineSuggestion": "alwaysOnTop",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
+}
