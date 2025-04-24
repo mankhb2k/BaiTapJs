@@ -42,7 +42,7 @@ const StudenInfo = {
 // Mô tả: Tạo một Object lưu thông tin của một cuốn sách (tựa đề, tác giả, giá).
 // Yêu cầu: Sử dụng vòng lặp for...in để in ra tất cả các cặp key-value.
 // for (let key in object) {dùng object[key] để lấy giá trị}
-  
+// template litrals (`Chuỗi văn bản với biến: ${biến}`) thay cho phép nốt chuỗi (+) 
 
 const book = {
     namebook: "Dormon",
@@ -51,6 +51,7 @@ const book = {
 };
 
 for (let value in book){
-    console.log(`${value}: ${book[value]}`)
+    // console.log(`${value}: ${book[value]}`) 
+    // hoặc có thể viết console.log(value + ": " + book[value]);
 };
 
