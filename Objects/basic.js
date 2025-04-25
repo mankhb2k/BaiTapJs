@@ -97,3 +97,28 @@ function tangluong(nhanvien, tang) {
     return { ...nhanvien, luong: nhanvien.luong + tang }
 };
 // console.log(tangluong(nhanvien, 10000));
+
+//Bai 9:
+// Mô tả: Tạo một Object lưu thông tin của một hình chữ nhật (chiều dài, chiều rộng).
+// Yêu cầu: Thêm một phương thức tính diện tích và gọi phương thức này.
+
+const rectangle = {
+    with: 10, 
+    height: 14,
+    calculator: function(){ return this.with * this.height}
+};
+// console.log(rectangle.calculator())
+
+// Bai 10:
+// Mô tả: Tạo một mảng chứa 3 Object, mỗi Object lưu thông tin của một bộ phim (tên, năm phát hành).
+// Yêu cầu: In ra tên của từng bộ phim.
+//forEach là một phương thức mảng trong Js, sử dụng lặp qua phần tử trong mảng và thực hiện callback trên mỗi phần tử
+
+
+const movie = [
+    {name: 'Avenger', year: "1980"}, {name: "Doremon", year: "2000"}, {name: "toystore", year: "2001"}
+]
+// movie.forEach(movie => console.log(movie.name))
+
+// cú pháp forEach: array.forEach(function(element, index, array) {Thực hiện hành động với từng phần tử});
+// array.forEach((element, index, array) => {Thực hiện hành động với từng phần tử});
